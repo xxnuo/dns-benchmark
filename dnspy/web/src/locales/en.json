@@ -35,13 +35,13 @@
   },
   "score": {
     "scores": "Total Score",
-    "desc_scores": "Total score high, the better the overall performance. Click on the bar of the data to copy the server address",
+    "desc_scores": "Total score high, the better the overall performance. Click on the bar of the data to copy the server address.",
     "latencies": "Average Latency",
-    "desc_latencies": "Average latency(ms) low, the faster the query result returns. Click on the bar of the data to copy the server address",
+    "desc_latencies": "Average latency(ms) low, the faster the query result returns. Click on the bar of the data to copy the server address. (Note: If the delay time is too small also consider whether it has been hijacked by the operator)",
     "successRates": "Success Rate",
-    "desc_successRates": "Success rate(%) high, the higher the success rate. Click on the bar of the data to copy the server address",
+    "desc_successRates": "Success rate(%) high, the higher the success rate. Click on the bar of the data to copy the server address.",
     "qps": "QPS",
-    "desc_qps": "QPS(Queries Per Second) high, the faster the query speed. Click on the bar of the data to copy the server address"
+    "desc_qps": "QPS(Queries Per Second) high, the faster the query speed. Click on the bar of the data to copy the server address."
   },
   "region": {
     "asia": "Asia Pacific",

@@ -28,7 +28,7 @@ update-domains:
 	curl https://cdn.jsdelivr.net/gh/Tantalor93/dnspyre@master/data/10000-domains -o ./res/domains.txt
 
 # 更新 dnspyre 可执行文件
-update-caller:
+configuration:
 	@echo "正在更新 dnspyre 可执行文件..."
 	@echo "请勿修改使用的 dnspyre 版本号,否则会导致 dnspy 无法正常运行"
 	go get github.com/tantalor93/dnspyre/v3@latest
@@ -40,6 +40,6 @@ update-caller:
 	GOOS=windows GOARCH=arm64 go build -ldflags "-s -w" -o ./res/dnspyre-windows-arm64.exe github.com/tantalor93/dnspyre/v3
 
 
-update: update-geodata update-domains update-caller
+update: update-geodata update-domains
 
 .PHONY: all build run clean update-geodata update-caller update-domains

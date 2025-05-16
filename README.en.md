@@ -2,6 +2,12 @@
 
 [English](./README.en.md) | [中文](./README.md)
 
+**The English translation may lag behind the Chinese original. For current details, see the Chinese version.**
+
+**The English translation may lag behind the Chinese original. For current details, see the Chinese version.**
+
+**The English translation may lag behind the Chinese original. For current details, see the Chinese version.**
+
 ### Data Analysis Dashboard Preview
 
 ![Data Analysis Dashboard Preview](./images/preview.png)
